@@ -1,0 +1,31 @@
+
+<html> 
+    <script>
+
+//Criar função que retorna a soma de todos os múltiplos de 3
+
+//Múltiplos de 3: 3, 6, 9, 12, 15
+
+//Somando os Múltiplos
+
+   function somaMultiplos3(numero) {
+    let soma = 0;
+    for (let i = 3; i <= numero; i++) {
+        if (i % 3 === 0) {
+            soma += i;
+        }
+    };
+    return soma;    
+};
+
+   console.log(somaMultiplos3(20));
+   console.log(somaMultiplos3(30));
+
+   console.log(somaMultiplos3(3));
+   console.log(somaMultiplos3(6));
+   console.log(somaMultiplos3(9));
+   console.log(somaMultiplos3(12));
+   console.log(somaMultiplos3(15));
+
+</script>
+</html>
